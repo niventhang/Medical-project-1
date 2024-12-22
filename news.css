@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap');
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.overall{
+    width:100%;
+    padding:30px;
+}
+.container-fluid{
+    font-family: "Spicy Rice", serif;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 0;
+    align-items: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   font-style: normal;
+   font-size: 25px;
+   position: sticky;
+}
+.navbar{
+    width:100%;
+}
+.navbar-nav>a:hover{
+    color:rgb(225, 19, 36) !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.navbar-nav{
+    color: black !important;
+}
+.con-img{
+    min-height: 40vh;
+    background: url(./img/contact.jpg.webp) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.sec{
+    width:50%;
+    height:50px;
+    background-color: aqua;
+}
+.sec:hover{
+    width:50%;
+    height:50px;
+    background-color: antiquewhite;
+    box-shadow: 1px 1px 10px black;
+}
+@media screen and (min-width:300px) and (max-width:600px) {
+    .news{
+        flex-direction: column;
+        width:90%;
+        gap:30px;
+        background-color: aqua;
+    }
+    .c1{
+        width:300%;
+       flex-wrap: wrap;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        gap:10px;
+    }
+    .last1{
+          margin:10px;
+           width:150%;
+           height:200px;
+           gap:10px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .c2{
+        flex-direction: column;
+        width:50%;
+    }
+}
+@media screen and (min-width:600px) and (max-width:850px) {
+    .news{
+        flex-direction: column;
+        width:90%;
+        gap:30px;
+    }
+    .c1{
+        width:300%;
+       flex-wrap: wrap;
+    }
+    .last{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width:100%;
+        gap:10px;
+    }
+    .last1{
+          margin:10px;
+           width:150%;
+           height:200px;
+           gap:10px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width:100%;
+    }
+    .c2{
+        flex-direction: column;
+        width:50%;
+    }
+}
